@@ -1,4 +1,0 @@
-C:\Users\777\Desktop\ООП разумовский\one\Task4\Task1\obj\Debug\netcoreapp3.1\Task1.csprojAssemblyReference.cache
-C:\Users\777\Desktop\ООП разумовский\one\Task4\Task1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfoInputs.cache
-C:\Users\777\Desktop\ООП разумовский\one\Task4\Task1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfo.cs
-C:\Users\777\Desktop\ООП разумовский\one\Task4\Task1\obj\Debug\netcoreapp3.1\Task1.csproj.CoreCompileInputs.cache
