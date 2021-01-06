@@ -1,0 +1,14 @@
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\ConsoleApp1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.deps.json
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\ConsoleApp1\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\ConsoleApp1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\ConsoleApp1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\ConsoleApp1\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\bin\Debug\netcoreapp3.1\ClassLibrary1.deps.json
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\bin\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\bin\Debug\netcoreapp3.1\ClassLibrary1.pdb
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\obj\Debug\netcoreapp3.1\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\obj\Debug\netcoreapp3.1\ClassLibrary1.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\obj\Debug\netcoreapp3.1\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\obj\Debug\netcoreapp3.1\ClassLibrary1.dll
+C:\Users\777\Desktop\Projects\OOP\ForthLvl\DataAccess\obj\Debug\netcoreapp3.1\ClassLibrary1.pdb
