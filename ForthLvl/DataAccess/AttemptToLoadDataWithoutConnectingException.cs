@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    class AttemptToLoadDataWithoutConnectingException :Exception
+    class AttemptToLoadDataWithoutConnectingException : Exception
     {
 
         public string StudentName { get; }

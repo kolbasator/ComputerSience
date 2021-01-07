@@ -575,11 +575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\Task6\\Task42.0\\Task42.0.csproj",
+      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task6\\Task42.0\\Task42.0.csproj",
       "projectName": "Task42.0",
-      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\Task6\\Task42.0\\Task42.0.csproj",
+      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task6\\Task42.0\\Task42.0.csproj",
       "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\Task6\\Task42.0\\obj\\",
+      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task6\\Task42.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -595,8 +595,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj"
+            "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj"
             }
           }
         }

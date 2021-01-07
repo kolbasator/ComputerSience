@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JXfUbORqIaftcoVrcaFLVSf9VKpOLXh0sKBqm6H/+y9BpGghdbNfzDqZCtt0ToebRxw8MPSdfnWsvVx2OcvzZw==",
+  "dgSpecHash": "e8v+w6bGaXNrz+hnrBNls3vx6DKGfjMus1ILNdhOwaZ4eF6UJuBOrGaBzVBCUJ7Lk4Mw3Rk/h2f6dfOsbmQQBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\Task4\\Task42.0\\Task42.0.csproj",
+  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task4\\Task42.0\\Task42.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\777\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.1\\microsoft.aspnet.signalr.core.2.4.1.nupkg.sha512",
     "C:\\Users\\777\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",

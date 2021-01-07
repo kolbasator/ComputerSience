@@ -7,43 +7,43 @@ namespace ClassLibrary1
     public class Database : IDatabase
     {
         private static List<MyList> _databases = new List<MyList>();
-        public MyList database = new MyList();
-        public Connection connection;
+        public MyList Database1 = new MyList();
+        public Connection Connection;
         public void ShowTables()
         {
             #region
             Console.Write("Input password of connection:");
             string password1 = Console.ReadLine();
-            if (this.connection.Status == true)
+            if (this.Connection.Status == true)
             {
                 Console.Write("Input password for database:");
                 string password = Console.ReadLine();
-                if (password == database.Password)
+                if (password == Database1.Password)
                 {
                     Console.WriteLine("+----------+---------------+---------------+");
                     Console.WriteLine("!Id Number !     Name      !    Lastname   !");
-                    for (int i = 1; i < database.Count; i++)
+                    for (int i = 1; i < Database1.Count; i++)
                     {
 
                         string first = "";
                         string second = "";
                         string third = "";
-                        if (database[i].Name.Length < 15)
+                        if (Database1[i].Name.Length < 15)
                         {
-                            for (int r = 1; r < 16 - database[i].Name.Length; r++)
+                            for (int r = 1; r < 16 - Database1[i].Name.Length; r++)
                             {
                                 second += " ";
                             }
                         }
-                        if (database[i].Lastname.Length < 15)
+                        if (Database1[i].Lastname.Length < 15)
                         {
-                            for (int r = 1; r < 16 - database[i].Lastname.Length; r++)
+                            for (int r = 1; r < 16 - Database1[i].Lastname.Length; r++)
                             {
                                 third += " ";
                             }
 
                         }
-                        if (Convert.ToString(database[i].IdNumber).Length < 10)
+                        if (Convert.ToString(Database1[i].IdNumber).Length < 10)
                         {
                             for (int r = 1; r < 18 - first.Length; r++)
                             {
@@ -52,7 +52,7 @@ namespace ClassLibrary1
                         }
 
                         Console.WriteLine("+----------+---------------+---------------+");
-                        Console.WriteLine($"!{database[i].IdNumber}{first}!{database[i].Name}{second}!{database[i].Lastname}{third}!");
+                        Console.WriteLine($"!{Database1[i].IdNumber}{first}!{Database1[i].Name}{second}!{Database1[i].Lastname}{third}!");
 
                     }
 
@@ -71,7 +71,7 @@ namespace ClassLibrary1
         public void CreateUser(List<User> database, string name, string Lastname)
         {
             #region
-            if (this.connection.Status == true)
+            if (this.Connection.Status == true)
             {
 
                 if (name.Length <= 15 && Lastname.Length <= 15)
@@ -106,7 +106,7 @@ namespace ClassLibrary1
         public void Use(string name)
         {
             #region
-            database = _databases.FirstOrDefault(x => x.Name == name);
+            Database1 = _databases.FirstOrDefault(x => x.Name == name);
             #endregion
         }
         public void DropDatabase(string name)
@@ -125,32 +125,32 @@ namespace ClassLibrary1
         public string GetUsersData(string number)
         {
             #region
-            if (this.connection.Status == true)
+            if (this.Connection.Status == true)
             {
-                int i = database[database.IndexOf(database.FirstOrDefault(user => user.IdNumber == Convert.ToInt32(number)))].IdNumber;
-                string modifiedIdNumber = Convert.ToString(database[i].IdNumber);
-                string modifiedName = database[i].Name;
-                string modifiedPassword = database[i].Lastname;
+                int i = Database1[Database1.IndexOf(Database1.FirstOrDefault(user => user.IdNumber == Convert.ToInt32(number)))].IdNumber;
+                string modifiedIdNumber = Convert.ToString(Database1[i].IdNumber);
+                string modifiedName = Database1[i].Name;
+                string modifiedPassword = Database1[i].Lastname;
 
                 string first = "";
                 string second = "";
                 string third = "";
-                if (database[i].Name.Length < 15)
+                if (Database1[i].Name.Length < 15)
                 {
-                    for (int r = 1; r < 16 - database[i].Name.Length; r++)
+                    for (int r = 1; r < 16 - Database1[i].Name.Length; r++)
                     {
                         second += " ";
                     }
                 }
-                if (database[i].Lastname.Length < 15)
+                if (Database1[i].Lastname.Length < 15)
                 {
-                    for (int r = 1; r < 16 - database[i].Lastname.Length; r++)
+                    for (int r = 1; r < 16 - Database1[i].Lastname.Length; r++)
                     {
                         third += " ";
                     }
 
                 }
-                if (Convert.ToString(database[i].IdNumber).Length < 10)
+                if (Convert.ToString(Database1[i].IdNumber).Length < 10)
                 {
                     for (int r = 1; r < 18 - first.Length; r++)
                     {
@@ -160,7 +160,7 @@ namespace ClassLibrary1
 
                 Console.WriteLine("+----------+---------------+---------------+");
                 Console.WriteLine();
-                string info = $"!Id Number !     Name      !    Password   !\n+----------+---------------+---------------+\n!{Convert.ToString(database[i].IdNumber)}{first}!{database[i].Name}{second}!{database[i].Lastname}{third}!\n+----------+---------------+---------------+";
+                string info = $"!Id Number !     Name      !    Password   !\n+----------+---------------+---------------+\n!{Convert.ToString(Database1[i].IdNumber)}{first}!{Database1[i].Name}{second}!{Database1[i].Lastname}{third}!\n+----------+---------------+---------------+";
                 return info;
             }
             else

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-    interface IConnection 
+    interface IConnection
     {
-         void Open( string password);
-         void Close( string password);
+        void Open(string password);
+        void Close(string password);
     }
 }

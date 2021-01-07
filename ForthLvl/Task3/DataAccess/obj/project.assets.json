@@ -557,11 +557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj",
+      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task3\\DataAccess\\ClassLibrary1.csproj",
       "projectName": "ClassLibrary1",
-      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj",
+      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task3\\DataAccess\\ClassLibrary1.csproj",
       "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task3\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",

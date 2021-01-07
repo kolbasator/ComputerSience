@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6g1GDpkLXBcdYBPhIUCW3Ow7fp4UmKcyQ95NGpUetRLRoh1FoMOD0pVJDeU1TeeqKOaTOWyDM9bmwVbH92r+7A==",
+  "dgSpecHash": "q0M4b976W8S8g73KI5O3GFO54tL3d26GXowewj4zyN1wgBVqmwwmS+pYIT2bEGsGRtr37hYMFiBS704Yctmd0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\ForthLvl\\DataAccess\\ClassLibrary1.csproj",
+  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ForthLvl\\Task2\\DataAccess\\ClassLibrary1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\777\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.1\\microsoft.aspnet.signalr.core.2.4.1.nupkg.sha512",
     "C:\\Users\\777\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",

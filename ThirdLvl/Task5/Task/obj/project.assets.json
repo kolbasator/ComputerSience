@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\three\\Task5\\Task\\Task.csproj",
+      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ThirdLvl\\Task5\\Task\\Task.csproj",
       "projectName": "Task",
-      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\three\\Task5\\Task\\Task.csproj",
+      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ThirdLvl\\Task5\\Task\\Task.csproj",
       "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\three\\Task5\\Task\\obj\\",
+      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\ThirdLvl\\Task5\\Task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",

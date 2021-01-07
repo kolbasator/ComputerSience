@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary1
 {
-   public  class User
+    public class User
     {
         private int _idNumber;
         private string _password;
@@ -17,7 +17,7 @@ namespace ClassLibrary1
             }
             set
             {
-               _name = value;
+                _name = value;
             }
         }
         public string Lastname
@@ -42,7 +42,7 @@ namespace ClassLibrary1
                 _idNumber = value;
             }
         }
-        public User(string password,string name,int idNumber)
+        public User(string password, string name, int idNumber)
         {
             this.Name = name;
             this.Lastname = password;

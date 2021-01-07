@@ -18,6 +18,6 @@ namespace ClassLibrary1
         public IncorrectPasswordException(string message, Exception inner)
             : base(message, inner) { }
 
-      
+
     }
 }

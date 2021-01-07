@@ -8,7 +8,7 @@ namespace Task
         {
             Console.WriteLine("Hello World!");
             List<Person> list = new List<Person>();
-            Person person = new Person("Kirill","Chebotarev");
+            Person person = new Person("Kirill", "Chebotarev");
             Student student1 = new Student("Razumovsky", "Kolosov");
             Student student2 = new Student("Razumovsky2", "Kolosov");
             list.Add(person);

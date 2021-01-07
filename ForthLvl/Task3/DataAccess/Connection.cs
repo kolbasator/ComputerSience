@@ -6,8 +6,8 @@ namespace ClassLibrary1
 {
     public class Connection : IConnection
     {
-        private string _password="Kek";
-        public  bool Status;
+        private string _password = "Kek";
+        public bool Status;
         public string Password
         {
             get
@@ -48,6 +48,6 @@ namespace ClassLibrary1
                 throw new AnAttemptToCloseAnUnopenedConnectionException();
             }
         }
-      
+
     }
 }

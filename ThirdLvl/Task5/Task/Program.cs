@@ -7,7 +7,7 @@ namespace Task
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Person person = new Person("Kirill","Chebotarev");
+            Person person = new Person("Kirill", "Chebotarev");
             Student student1 = new Student("Razumovsky", "Kolosov");
             Student student2 = new Student("Razumovsky2", "Kolosov");
             Console.WriteLine(person.ToString());
