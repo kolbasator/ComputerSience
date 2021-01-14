@@ -5,7 +5,7 @@ using System.Text;
 namespace HospitalLibrary
 {
     [Serializable]
-    class Admin : Employee
+    public class Admin : Employee
     {
         public Admin(string name, string surname, int idNumber, string password, string username)
          : base(name, surname, idNumber, password, username)

@@ -7,12 +7,14 @@ using System.Text;
 using System.Windows.Forms;
 using HospitalLibrary;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 namespace HospitalApp
 {
     public partial class SignIn : Form
     {
-
+        
         public SignIn()
         {
             InitializeComponent();
@@ -20,7 +22,7 @@ namespace HospitalApp
 
         private void SignIn_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -32,39 +34,82 @@ namespace HospitalApp
         {
 
         }
+        private void SignIn_Closing(object sender, EventArgs e)
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
 
+            using (FileStream fs = new FileStream("data.dat", FileMode.OpenOrCreate))
+            {
+                foreach(Employee n in Program.FirstHospital.Employees)
+                    formatter.Serialize(fs, n);
+                
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            Program.FirstHospital.Employees.Add(new Cardiologist("Pavel", "Pechorin", 1, "12345", "Vrach", 1234567));
-            Program.FirstHospital.Employees.Add(new Cardiologist("Petya", "Pechorin", 2, "54321", "Chelovek", 5687891));
-            Program.FirstHospital.Employees.Add(new Cardiologist("Petro", "Kolosov", 3, "R", "Razumovsky", 5678084));
-            Program.FirstHospital.Employees.Add(new Urologist("Kirill", "Chebotarev", 4, "Kolbasyaka", "Musyaka", 7683412));
-            Program.FirstHospital.Employees.Add(new Urologist("Veronika", "Maksimova", 5, "12395", "Vrachiha", 4555544));
-            Program.FirstHospital.Employees.Add(new Nurse("Pavel", "Pechorin", 6, "12345", "Vrach"));
-            Program.FirstHospital.Employees.Add(new Neurologist("Pavel", "Gagarin", 1, "12345", "Vrach", 1234567));
+
+            BinaryFormatter formatter = new BinaryFormatter();
+            NursesAndDoctors form2 = new NursesAndDoctors();
+            if (File.Exists("data.dat") == true)
+            {
+                string[] strok = File.ReadAllLines("data.dat");
+                if (strok.Length != 0)
+                {
+                    using (FileStream fs = new FileStream("data.dat", FileMode.OpenOrCreate))
+                    {
+                            Program.FirstHospital.Employees.Add((Employee)formatter.Deserialize(fs));
+                    }
+                }
+                else
+                {
+                    Program.FirstHospital = new Hospital();
+                }
+            }
+            else
+            {
+                Program.FirstHospital = new Hospital();
+            }
             Calendar.SetData();
+            GraphicMaker.SetGraphicForAllEmployees(Program.FirstHospital.Employees);
+            Program.FirstHospital.Employees.Add(new Admin("Musyaka","Kolbasyaka",1,"Chebotarev","Kirill"));
             foreach (Employee n in Program.FirstHospital.Employees)
                 if (textBox1.Text == n.Username && textBox3.Text == n.Password)
                 {
-                    string myString = Convert.ToString(n.GetType());
+
+                    string myString = Convert.ToString(n.GetType().Name);
                     if (myString != "Admin")
                     {
-                        NursesAndDoctors form2 = new NursesAndDoctors();
+                        form2.textBox1.Text = null;
+                        Program.FirstHospital.DataList = null;
                         foreach (Employee y in Program.FirstHospital.Employees)
-                            if (Convert.ToString(y.GetType()) != "Admin")
+                            if (Convert.ToString(y.GetType()) != "HospitalLibrary.Admin")
                             {
-                                y.MakeGraphic(8, Convert.ToString(y.GetType()), Calendar.arrayOfLists);
-                                y.SetWorkDayes();
-                                y.SetGraphic();
-                                form2.textBox1.Text += y.GetInfo();
-
+                                form2.textBox1.Text = null;
+                                foreach (Employee employee in Program.FirstHospital.Employees)
+                                    form2.textBox1.AppendText($"\n {employee.GetData()},WorkDays-{employee.Graphic}");
+                                form2.textBox1.Text += Program.FirstHospital.DataList;
+                                form2.Show();
+                                break;
                             }
-
-
-                        form2.Show();
+                        
                         break;
                     }
+                    else
+                    {
+
+                        AdminPanel adminPanel = new AdminPanel();
+                        foreach (Employee m in Program.FirstHospital.Employees)
+                                Program.FirstHospital.DataList += $"{m.GetData()} ,Work days-{m.Graphic}";
+                        adminPanel.textBox1.Text += Program.FirstHospital.DataList;
+                        adminPanel.Show();
+                    }
+
                 }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

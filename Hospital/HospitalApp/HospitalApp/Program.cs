@@ -9,7 +9,8 @@ namespace HospitalApp
     static class Program
     {
         public static SignIn Sign = new SignIn();
-        public static Hospital FirstHospital = new Hospital();
+        public static Hospital FirstHospital;
+
        
         /// <summary>
         ///  The main entry point for the application.
@@ -17,9 +18,10 @@ namespace HospitalApp
         [STAThread]
         static void Main()
         {
-           
+         
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
+
             Application.Run(Program.Sign);
             
         }

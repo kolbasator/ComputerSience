@@ -7,3 +7,12 @@ C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Hospital\HospitalApp\HospitalLi
 C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.csproj.CoreCompileInputs.cache
 C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.dll
 C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\bin\Debug\netcoreapp3.1\HospitalLibrary.deps.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\bin\Debug\netcoreapp3.1\HospitalLibrary.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\bin\Debug\netcoreapp3.1\HospitalLibrary.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Razumovsky-OOP-main\Hospital\HospitalApp\HospitalLibrary\obj\Debug\netcoreapp3.1\HospitalLibrary.pdb

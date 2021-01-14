@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Hospital\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Razumovsky-OOP-main\\Hospital\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
       "projectName": "HospitalApp",
-      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Hospital\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Razumovsky-OOP-main\\Hospital\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
       "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Hospital\\HospitalApp\\HospitalApp\\obj\\",
+      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Razumovsky-OOP-main\\Hospital\\HospitalApp\\HospitalApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Hospital\\HospitalApp\\HospitalLibrary\\HospitalLibrary.csproj": {
-              "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Hospital\\HospitalApp\\HospitalLibrary\\HospitalLibrary.csproj"
+            "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Razumovsky-OOP-main\\Hospital\\HospitalApp\\HospitalLibrary\\HospitalLibrary.csproj": {
+              "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Razumovsky-OOP-main\\Hospital\\HospitalApp\\HospitalLibrary\\HospitalLibrary.csproj"
             }
           }
         }
