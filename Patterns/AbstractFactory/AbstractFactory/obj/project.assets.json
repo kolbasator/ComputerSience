@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Singlton\\Singlton\\Singlton.csproj",
-      "projectName": "Singlton",
-      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Singlton\\Singlton\\Singlton.csproj",
+      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\AbstractFactory\\AbstractFactory\\AbstractFactory.csproj",
+      "projectName": "AbstractFactory",
+      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\AbstractFactory\\AbstractFactory\\AbstractFactory.csproj",
       "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Singlton\\Singlton\\obj\\",
+      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\AbstractFactory\\AbstractFactory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmbcI0eNdmz+7bLolaMDSY5jWLsuI9XJe0pdJdyL0eA3I+yIzZB39dTc6YzONiBaGiHVXJkwOTHROGqkdMuDqg==",
+  "dgSpecHash": "BOJLgirGAXHT50opsXB71YiIvn4HqHk3xHHD+qf7iN/a4Cznwfl9yKGZ1P8m8zv+r/Dz2RY3etjaugQvIteS+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Patterns\\Singlton\\Singlton\\Singlton.csproj",
+  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Singlton\\Singlton\\Singlton.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
