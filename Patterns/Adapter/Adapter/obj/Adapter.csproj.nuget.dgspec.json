@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\777\\Desktop\\Projects\\OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj": {}
+    "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\777\\Desktop\\Projects\\OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj": {
+    "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj",
+        "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj",
         "projectName": "Adapter",
-        "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj",
+        "projectPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Adapter\\Adapter\\Adapter.csproj",
         "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Patterns\\Adapter\\Adapter\\obj\\",
+        "outputPath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Patterns\\Adapter\\Adapter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",

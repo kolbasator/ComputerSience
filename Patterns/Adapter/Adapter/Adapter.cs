@@ -4,8 +4,18 @@ using System.Text;
 
 namespace Adapter
 {
-    class Adapter : GlamorousPussyClass,Interface1
+    public class AdapterToAnimal : ITransport
     {
-        //Для того что бы не менять исходный кисо-класс мы наследуюемся от него и уже новый класс реализует интерфейс.Таким образом мы оставили тот же функционал и реализовали интерфейс.При этом нам не пришлось менять исходный класс.
+        private readonly IAnimal _animal;
+
+        public AdapterToAnimal(IAnimal animal)
+        {
+            _animal = animal;
+        }
+
+        public string Drive()
+        {
+            return _animal.Move();
+        }
     }
 }

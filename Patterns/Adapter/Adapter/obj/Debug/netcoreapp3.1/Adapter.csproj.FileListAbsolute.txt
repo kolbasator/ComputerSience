@@ -1,0 +1,13 @@
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\bin\Debug\netcoreapp3.1\Adapter.exe
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\bin\Debug\netcoreapp3.1\Adapter.deps.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\bin\Debug\netcoreapp3.1\Adapter.runtimeconfig.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\bin\Debug\netcoreapp3.1\Adapter.runtimeconfig.dev.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\bin\Debug\netcoreapp3.1\Adapter.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\bin\Debug\netcoreapp3.1\Adapter.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Adapter\Adapter\obj\Debug\netcoreapp3.1\Adapter.genruntimeconfig.cache
