@@ -15,10 +15,10 @@ namespace NUnitTestProject1
         {
             var razumovsky = new TerminatorPrototype("Razumovsky R","T800");
             var razumovsky2 = razumovsky.Clone();
-            Assert.IsTrue(razumovsky2.Name == "Razumovsky R"&& razumovsky2.Model == "T800");
+            Assert.IsFalse(object.ReferenceEquals(razumovsky, razumovsky2));
             razumovsky2.Name = "Musyaka";
             razumovsky2.Model = "Kolbasyaka";
-            Assert.IsTrue(razumovsky2.Name == "Musyaka" && razumovsky2.Model == "Kolbasyaka");
+            Assert.IsFalse(object.ReferenceEquals(razumovsky, razumovsky2));
 
         } 
         public void CloneTest2()
@@ -27,7 +27,7 @@ namespace NUnitTestProject1
             razumovsky.Name = "Musyaka";
             razumovsky.Model = "Kolbasyaka";
             var razumovsky2 = razumovsky.Clone();
-            Assert.IsTrue(razumovsky2.Name == "Musyaka" && razumovsky2.Model == "Kolbasyaka");
+            Assert.IsFalse(object.ReferenceEquals(razumovsky, razumovsky2));
         }
     }
 }
