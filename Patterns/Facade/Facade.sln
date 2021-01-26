@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{A21F356E-141A-457E-8250-DB97874E9C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{CCC98AC4-98F6-40E4-96BA-20BD864E5A93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A21F356E-141A-457E-8250-DB97874E9C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21F356E-141A-457E-8250-DB97874E9C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21F356E-141A-457E-8250-DB97874E9C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21F356E-141A-457E-8250-DB97874E9C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC98AC4-98F6-40E4-96BA-20BD864E5A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC98AC4-98F6-40E4-96BA-20BD864E5A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC98AC4-98F6-40E4-96BA-20BD864E5A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC98AC4-98F6-40E4-96BA-20BD864E5A93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A1E8315-0E04-4035-90F7-4C832C2E21DD}
+	EndGlobalSection
+EndGlobal

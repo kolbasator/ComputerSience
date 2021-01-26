@@ -1,0 +1,4 @@
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Facade\Facade\obj\Debug\netcoreapp3.1\Facade.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Facade\Facade\obj\Debug\netcoreapp3.1\Facade.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Facade\Facade\obj\Debug\netcoreapp3.1\Facade.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Patterns\Facade\Facade\obj\Debug\netcoreapp3.1\Facade.csproj.CoreCompileInputs.cache
