@@ -14,17 +14,17 @@ namespace NUnitTestProject1
         public void CheesePizzaTest()
         {
             Pizza pizza = new ItalianPizza();
-            Assert.IsTrue(pizza.GetCost() == 10 && pizza.Name == "Итальянская пицца");
+            Assert.IsTrue(pizza.GetCost() == 10 && pizza.Name == "ДЊЕ€Е•Г«ГјЛ™Г­Е„Д™Е•Л™ ДЏДЌГ¶Г¶Е•");
             pizza = new CheesePizza(pizza);
-            Assert.IsTrue(pizza.GetCost() == 15 && pizza.Name == "Итальянская пицца, с сыром");
+            Assert.IsTrue(pizza.GetCost() == 15 && pizza.Name == "ДЊЕ€Е•Г«ГјЛ™Г­Е„Д™Е•Л™ ДЏДЌГ¶Г¶Е•, Е„ Е„Е±Д‘Г®Д›");
              
         }
-        public void TomtoPizzaTest()
+        public void TomatoPizzaTest()
         {
             Pizza pizza = new BulgerianPizza();
-            Assert.IsTrue(pizza.GetCost() == 10 && pizza.Name == "Болгарская пицца");
+            Assert.IsTrue(pizza.GetCost() == 10 && pizza.Name == "ГЃГ®Г«ДѓЕ•Д‘Е„Д™Е•Л™ ДЏДЌГ¶Г¶Е•");
             pizza = new TomatoPizza(pizza);
-            Assert.IsTrue(pizza.GetCost() == 13 && pizza.Name == "Болгарская пицца, с томатами");
+            Assert.IsTrue(pizza.GetCost() == 13 && pizza.Name == "ГЃГ®Г«ДѓЕ•Д‘Е„Д™Е•Л™ ДЏДЌГ¶Г¶Е•, Е„ Е€Г®Д›Е•Е€Е•Д›ДЌ");
 
         }
     }
