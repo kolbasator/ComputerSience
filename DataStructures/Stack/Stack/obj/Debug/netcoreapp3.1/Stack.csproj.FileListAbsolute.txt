@@ -1,0 +1,13 @@
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\bin\Debug\netcoreapp3.1\Stack.exe
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\bin\Debug\netcoreapp3.1\Stack.deps.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.dev.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\bin\Debug\netcoreapp3.1\Stack.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\bin\Debug\netcoreapp3.1\Stack.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\DataStructures\Stack\Stack\obj\Debug\netcoreapp3.1\Stack.genruntimeconfig.cache
