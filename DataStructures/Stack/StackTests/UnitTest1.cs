@@ -14,26 +14,40 @@ namespace StackTests
             public void Push_Test()
             {
                 IStack<char> stack = new StackViaArray<char>(5);
+                stack.IsFull.Should().BeFalse();
                 stack.Push('A');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('B');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('C');
+                stack.IsFull.Should().BeFalse(); 
                 stack.Push('D');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('E');
+                stack.IsFull.Should().BeTrue();
                 stack.IsEmpty.Should().BeFalse();
                 stack.Count.Should().Be(5);
+                Action act = () => stack.Push('K');
+                act.Should().Throw<InvalidOperationException>()
+                    .WithMessage("Переполнение стека");
             }
 
             [Test]
             public void Pop_Test()
             {
                 IStack<char> stack = new StackViaArray<char>(5);
+                stack.IsFull.Should().BeFalse(); 
                 stack.Push('A');
+                stack.IsFull.Should().BeFalse(); 
                 stack.Push('B');
+                stack.IsFull.Should().BeFalse(); 
                 stack.Push('C');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('D');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('E');
-                stack.IsEmpty.Should().BeFalse();
                 stack.Count.Should().Be(5);
+                stack.IsFull.Should().BeTrue();
                 stack.Pop().Should().Be('E');
                 stack.Count.Should().Be(4);
                 stack.Pop().Should().Be('D');
@@ -54,11 +68,17 @@ namespace StackTests
             public void Peek_Test()
             {
                 IStack<char> stack = new StackViaArray<char>(5);
+                stack.IsFull.Should().BeFalse();
                 stack.Push('A');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('B');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('C');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('D');
+                stack.IsFull.Should().BeFalse();
                 stack.Push('E');
+                stack.IsFull.Should().BeTrue();
                 stack.IsEmpty.Should().BeFalse();
                 stack.Count.Should().Be(5);
                 stack.Peek().Should().Be('E');

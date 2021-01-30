@@ -7,6 +7,7 @@ namespace Stack
     public interface IStack<T>
     {
         int Count { get; }
+        bool IsFull { get; }
         bool IsEmpty { get; }
         void Push(T entity);
         T Pop();

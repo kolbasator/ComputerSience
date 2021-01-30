@@ -9,6 +9,8 @@ namespace Stack
         public T[] array;
         public bool IsEmpty => Count == 0;
 
+        public bool IsFull => Count == array.Length;
+
         public int Count {get;private set; }
          
 
@@ -20,7 +22,7 @@ namespace Stack
 
         public void Push(T entity)
         {
-            if (Count == array.Length)
+            if (IsFull)
                 throw new InvalidOperationException("Переполнение стека"); 
             array[Count] = entity;
             Count++;
