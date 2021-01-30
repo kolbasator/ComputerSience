@@ -6,35 +6,36 @@ namespace Stack
 {
     public class StackViaArray<T> : IStack<T>
     {
-        public int Count { get; }
-        public bool IsEmpty { get; }
+        public T[] array;
+        public bool IsEmpty => Count == 0;
 
-        public T[] Items;
+        public int Count {get;private set; }
+         
 
         public StackViaArray(int length)
         {
-            Items = new T[length];
+            array = new T[length];
         }
 
 
         public void Push(T entity)
         {
-            if (Count == Items.Length)
-                throw new InvalidOperationException("Переполнение стека");
-            int index = Count;
-            Items[index++] = entity;
+            if (Count == array.Length)
+                throw new InvalidOperationException("Переполнение стека"); 
+            array[Count] = entity;
+            Count++;
         }
         public T Peek()
         {
-            return Items[Count - 1];
+            return array[Count - 1];
         }
         public T Pop()
         {
             if (IsEmpty)
-                throw new InvalidOperationException("Стек пуст");
-            int index = Count; 
-            T item = Items[index--];
-            Items[Count] = default(T);  
+                throw new IndexOutOfRangeException("Stack is empty."); 
+            var index =  --Count; 
+            var item = array[index];
+            array[index ]=default;  
             return item;
         }
 
