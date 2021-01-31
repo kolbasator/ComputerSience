@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LarioAndMuigiPipeProblem", "LarioAndMuigiPipeProblem\LarioAndMuigiPipeProblem.csproj", "{3C91D55D-BB32-4CAF-8671-BFC85E0CA25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{26C1E85B-E95F-4D5A-8FED-FFC1116CBFC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C91D55D-BB32-4CAF-8671-BFC85E0CA25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C91D55D-BB32-4CAF-8671-BFC85E0CA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C91D55D-BB32-4CAF-8671-BFC85E0CA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C91D55D-BB32-4CAF-8671-BFC85E0CA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C1E85B-E95F-4D5A-8FED-FFC1116CBFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C1E85B-E95F-4D5A-8FED-FFC1116CBFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C1E85B-E95F-4D5A-8FED-FFC1116CBFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C1E85B-E95F-4D5A-8FED-FFC1116CBFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB917512-450D-434A-BDEB-E8338BFBBDA1}
+	EndGlobalSection
+EndGlobal
