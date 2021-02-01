@@ -1,0 +1,13 @@
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\bin\Debug\netcoreapp3.1\FindTheUniqueNumber.exe
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\bin\Debug\netcoreapp3.1\FindTheUniqueNumber.deps.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\bin\Debug\netcoreapp3.1\FindTheUniqueNumber.runtimeconfig.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\bin\Debug\netcoreapp3.1\FindTheUniqueNumber.runtimeconfig.dev.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\bin\Debug\netcoreapp3.1\FindTheUniqueNumber.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\bin\Debug\netcoreapp3.1\FindTheUniqueNumber.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Codewars\FindTheUniqueNumber\FindTheUniqueNumber\obj\Debug\netcoreapp3.1\FindTheUniqueNumber.genruntimeconfig.cache

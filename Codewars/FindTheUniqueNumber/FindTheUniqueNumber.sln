@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheUniqueNumber", "FindTheUniqueNumber\FindTheUniqueNumber.csproj", "{F57A624A-4607-4142-9F18-CE248A35613A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{34177E12-9779-489C-918E-6CE7C1913B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57A624A-4607-4142-9F18-CE248A35613A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57A624A-4607-4142-9F18-CE248A35613A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57A624A-4607-4142-9F18-CE248A35613A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57A624A-4607-4142-9F18-CE248A35613A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34177E12-9779-489C-918E-6CE7C1913B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34177E12-9779-489C-918E-6CE7C1913B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34177E12-9779-489C-918E-6CE7C1913B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34177E12-9779-489C-918E-6CE7C1913B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DAAFBA5-5DCB-4521-95AD-F375A8081B0B}
+	EndGlobalSection
+EndGlobal
