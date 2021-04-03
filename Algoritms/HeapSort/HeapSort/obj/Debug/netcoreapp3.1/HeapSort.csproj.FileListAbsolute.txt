@@ -1,0 +1,9 @@
+C:\Users\777\source\repos\HeapSort\HeapSort\bin\Debug\netcoreapp3.1\HeapSort.deps.json
+C:\Users\777\source\repos\HeapSort\HeapSort\bin\Debug\netcoreapp3.1\HeapSort.dll
+C:\Users\777\source\repos\HeapSort\HeapSort\obj\Debug\netcoreapp3.1\HeapSort.csprojAssemblyReference.cache
+C:\Users\777\source\repos\HeapSort\HeapSort\obj\Debug\netcoreapp3.1\HeapSort.AssemblyInfoInputs.cache
+C:\Users\777\source\repos\HeapSort\HeapSort\obj\Debug\netcoreapp3.1\HeapSort.AssemblyInfo.cs
+C:\Users\777\source\repos\HeapSort\HeapSort\bin\Debug\netcoreapp3.1\HeapSort.pdb
+C:\Users\777\source\repos\HeapSort\HeapSort\obj\Debug\netcoreapp3.1\HeapSort.csproj.CoreCompileInputs.cache
+C:\Users\777\source\repos\HeapSort\HeapSort\obj\Debug\netcoreapp3.1\HeapSort.dll
+C:\Users\777\source\repos\HeapSort\HeapSort\obj\Debug\netcoreapp3.1\HeapSort.pdb

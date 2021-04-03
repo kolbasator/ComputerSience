@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aTui9s2Ok98Ob19tlN4X9gg2FU18/bcuLREvKfd3a1fc6ShylbuCrdMNdSqd0gEvfpTlmB4UTWBF0ImyDo2grw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\777\\Desktop\\Projects\\OOP\\Razumovsky-OOP\\Algoritms\\HeapSort\\HeapSort\\HeapSort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\777\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
+    "C:\\Users\\777\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\777\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

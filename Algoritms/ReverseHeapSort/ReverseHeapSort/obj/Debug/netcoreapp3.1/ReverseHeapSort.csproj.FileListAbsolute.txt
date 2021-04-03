@@ -1,0 +1,9 @@
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\bin\Debug\netcoreapp3.1\ReverseHeapSort.deps.json
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\bin\Debug\netcoreapp3.1\ReverseHeapSort.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\obj\Debug\netcoreapp3.1\ReverseHeapSort.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\obj\Debug\netcoreapp3.1\ReverseHeapSort.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\obj\Debug\netcoreapp3.1\ReverseHeapSort.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\bin\Debug\netcoreapp3.1\ReverseHeapSort.pdb
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\obj\Debug\netcoreapp3.1\ReverseHeapSort.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\obj\Debug\netcoreapp3.1\ReverseHeapSort.dll
+C:\Users\777\Desktop\Projects\OOP\Razumovsky-OOP\Algoritms\ReverseHeapSort\ReverseHeapSort\obj\Debug\netcoreapp3.1\ReverseHeapSort.pdb
